@@ -1,0 +1,64 @@
+project unkown dingen die ik nodig heb:
+
+*Player/select ship screen 
+
+(dit kan ik misschien doen door 1 empty gameobject genaamd player te maken
+en daaraan de unieke schepen te koppelen en de gene die de player kiest gaat
+aan en degene die niet aan gaan gaat kapot (destroy(other ships))
+
+OF
+
+ik gebruik laurence's advies en dan maak ik een lijst van schepen waar de players
+uit kunnen kiezen en als player 1 bijvoorbeeld op het schip heeft geklikt en de
+game start dan pak ik het script van dat schip en zet ik de bool van welke player
+het is aan + ik zet de tag op het schip
+van de gene die van de player is die het heeft geselecteerd
+
+*maak meerdere unique schepen(with unique looks and abilities)
+
+*voeg random upgrades/powerups toe in de playing field die op een random locatie
+spawnen dingen zoals healthpacks of een schild etc..
+
+*maak nog een leuke achtergrond/maak de achtergrond interessanter
+
+*maak een tutorial
+
+*maak een title screen/screen logo
+
+*maak een explosion animation voor de mine als ie dood gaat
+
+*maak een sound voor als de screenshake activeerd
+
+*Xbox Controller Support
+
+*voeg een pooling system toe voor de bullets
+
+MAAK EEN SOUND MANAGER DIE ALLE GAME MUSIC + SOUND REGELT
+DIT GELDT NIET VOOR DINGEN DIE DE AUDIOSOURCE WAKE GEBRUIKEN
+check hier voor instructies van mark:
+maak 1 object
+met 1 script erop
+die alle sounds regeld
+en zeg dan, soundManager.Play("welke sound") of soundManager.PlayHitSound
+
+ZORG ERVOOR DAT ALS DE ENEMY PLAYER OF DE BULLETS DE MINES RAAKT
+DAT DIE DAN OOK DE EXPLOSION SOUND AFSPELEN DOEN!!!
+
+IDEE MAAK HET ZODAT DE MINE KAN WORDEN GEGOOID NAAR VOREN OF NAAR ACHTEREN
+
+abilitie ideas:
+
+Warp 		= teleport een klein beetje naar voren (het werkt net als blink in sc2)
+
+homing misiles  = missiles die de enemy volgen
+
+phaseshift 	= wordt invincible voor 1 seconden/neem geen damage voor 1 seconden
+
+morningstar 	= een ball die de player meesleept en vijanden kan damagen
+
+Nuke 		= one time use bomb that deals damage in a big area of effect
+
+Stun Bomb 	= stuns the target for a duration it can als stun the player
+            	who shot the stun bomb
+
+deflector 	= deflects bullets, bombs, nukes, and other projectiles
